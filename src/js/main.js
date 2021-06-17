@@ -1,6 +1,4 @@
-import particle from "./particle";
+import Particle from "./particle.js";
 
-const $canvas1 = document.querySelector("#canvas1");
-const ctx = canvas.getContext("2d");
-ctx.canvas.width = window.innerWidth;
-ctx.canvas.height = window.innerheight;
+const circle1 = new Particle(100, 100, 50, 50, 100, "red");
+circle1.draw();
