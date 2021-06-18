@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import {ctx, Particle} from './particle.js';
 
 let particlesTab;
